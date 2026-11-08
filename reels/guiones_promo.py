@@ -29,7 +29,7 @@ PROMOS = {
                  ev={'sheet': 0, 'm_nequi': 3, 'm_pse': 4, 'm_tarjeta': 6, 'sel': 7, 'pay': 8, 'ok': 10}, cam=ZOOM_HOJA, cam_ev={'ok': VER_OK}),
             dict(t='Tú lo ves al instante en tu panel.', pos='top', marca=['panel'], vis='panel', ev={'p_pago': 3}, cam=NORMAL),
             dict(t='Menuo.', pos='centro', kt=False, vis='logo', cam=NORMAL),
-            dict(t='Pruébalo dos meses gratis. Escríbenos DEMO por DM.', pos='top', marca=['demo'], ev={'cta': 4}),
+            dict(t='Pruébalo dos meses gratis. Escríbenos DEMO por DM.', tts='Pruébalo dos meses gratis. Escríbenos «demo» por DM.', pos='top', marca=['demo'], ev={'cta': 4}),
         ],
         caption='¿Te ha pasado? Viernes, restaurante lleno y todas las mesas pidiendo la cuenta al mismo tiempo.\n\n'
                 'Con Menuo cada mesa escanea el QR, pide y paga desde el celular con Nequi, PSE o tarjeta. Tú lo ves al instante en tu panel.\n\n'
@@ -63,7 +63,7 @@ PROMOS = {
             dict(t='La comanda sale sola, y llega a cocina ya pagada.', pos='top', marca=['ya', 'pagada'], vis='cocina', ev={'print': 1, 'stamp': 8}, cam=NORMAL),
             dict(t='En el computador o la tablet que ya tienes.', pos='top', marca=['ya', 'tienes'], vis='panel', cam=dict(s=0.86, f=(540, 1080))),
             dict(t='Menuo.', pos='centro', kt=False, vis='logo', cam=NORMAL),
-            dict(t='¿Lo vemos en tu restaurante? Escríbenos DEMO por DM.', pos='top', marca=['demo'], ev={'cta': 5}),
+            dict(t='¿Lo vemos en tu restaurante? Escríbenos DEMO por DM.', tts='¿Lo vemos en tu restaurante? Escríbenos «demo» por DM.', pos='top', marca=['demo'], ev={'cta': 5}),
         ],
         caption='Todo tu restaurante en una sola pantalla: qué mesa está pidiendo, qué pedido va para cocina y quién ya pagó.\n\n'
                 'Con Menuo la comanda sale sola y llega a cocina ya pagada. Funciona en el computador o la tablet que ya tienes.\n\n'
